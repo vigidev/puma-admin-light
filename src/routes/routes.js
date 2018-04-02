@@ -1,6 +1,7 @@
 import DashboardLayout from '../components/Dashboard/Layout/DashboardLayout.vue'
 // GeneralViews
 import NotFound from '../components/GeneralViews/NotFoundPage.vue'
+import Login from '../components/GeneralViews/Login.vue'
 
 // Admin pages
 import Overview from 'src/components/Dashboard/Views/Overview.vue'
@@ -14,8 +15,7 @@ import Notifications from 'src/components/Dashboard/Views/Notifications.vue'
 const routes = [
   {
     path: '/',
-    component: DashboardLayout,
-    redirect: '/admin/overview'
+    component: Login
   },
   {
     path: '/admin',
