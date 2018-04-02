@@ -11,7 +11,8 @@
             <div class="table-responsive">
               <l-table class="table-hover table-striped"
                        :columns="table1.columns"
-                       :data="table1.data">
+                       :data="table1.data"
+                       :option="table1.option">
               </l-table>
             </div>
           </card>
@@ -27,7 +28,8 @@
             <div class="table-responsive">
               <l-table class="table-hover"
                        :columns="table2.columns"
-                       :data="table2.data">
+                       :data="table2.data"
+                       :option="table2.option">
               </l-table>
             </div>
           </card>
@@ -76,6 +78,8 @@
     country: 'Malawi',
     city: 'Feldkirchen in Kärnten'
   }]
+  var t = true
+  var f = false
   export default {
     components: {
       LTable,
@@ -85,11 +89,13 @@
       return {
         table1: {
           columns: [...tableColumns],
-          data: [...tableData]
+          data: [...tableData],
+          option: "true"
         },
         table2: {
           columns: [...tableColumns],
-          data: [...tableData]
+          data: [...tableData],
+          option: "false"
         }
       }
     }
