@@ -12,6 +12,7 @@ import Icons from 'src/components/Dashboard/Views/Icons.vue'
 import Maps from 'src/components/Dashboard/Views/Maps.vue'
 import Notifications from 'src/components/Dashboard/Views/Notifications.vue'
 import CashAudit from 'src/components/Dashboard/Views/Cash.vue'
+import AdminMember from 'src/components/Dashboard/Views/Member.vue'
 
 const routes = [
   {
@@ -62,6 +63,11 @@ const routes = [
         path: 'cash',
         name: 'Cash',
         component: CashAudit
+      },
+      {
+        path: 'members',
+        name: 'Members',
+        component: AdminMember
       }
     ]
   },

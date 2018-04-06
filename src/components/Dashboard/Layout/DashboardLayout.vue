@@ -31,8 +31,12 @@
         <p>Notifications</p>
       </sidebar-link>
       <sidebar-link to="/admin/cash">
-        <i><font-awesome-icon :icon="['far','money-bill-alt']"/></i>
+        <i><font-awesome-icon :icon="['fas','clipboard']"/></i>
         <p>Cash Audit</p>
+      </sidebar-link>
+      <sidebar-link to="/admin/members">
+        <i><font-awesome-icon :icon="['fas','users']"/></i>
+        <p>Admin Members</p>
       </sidebar-link>
     </side-bar>
     <div class="main-panel">

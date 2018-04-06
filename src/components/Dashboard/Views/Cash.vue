@@ -23,7 +23,7 @@
             <div class="col-md-6 col-sm-12">
                 <card>
                     <template slot="header">
-                    <h4 class="card-title">Income Form</h4>
+                    <h4 class="card-title"><font-awesome-icon :icon="['fas', 'plus-square']"/> Income Form</h4>
                     <p class="card-category">Please put income here</p>
                     </template>
                     <form>
@@ -69,7 +69,7 @@
             <div class="col-md-6 col-sm-12">
                 <card>
                     <template slot="header">
-                    <h4 class="card-title">Outcome Form</h4>
+                    <h4 class="card-title"><font-awesome-icon :icon="['fas', 'minus-square']"/> Outcome Form</h4>
                     <p class="card-category">Please put outcome here</p>
                     </template>
                     <form>
@@ -121,34 +121,6 @@ import LTable from 'src/components/UIComponents/Table.vue'
 import Card from 'src/components/UIComponents/Cards/Card.vue'
 const TableColumn = ['Date', 'Description','Income','Outcome','Cash']
 const TableData = [
-  {
-    date: '12-Jan-17',
-    description: 'Cash from PUMA 2016',
-    income: '9.814.200',
-    outcome: '',
-    cash: '9.814.200',
-  },
-  {
-    date: '13-Jan-17',
-    description: 'Cash batch 2016 (Semester 1)',
-    income: '3.740.000',
-    outcome: '',
-    cash: '13.554.200',
-  },
-  {
-    date: '18-Jan-17',
-    description: 'Print permission letter for SAP Trial',
-    income: '',
-    outcome: '8.000',
-    cash: '13.546.200',
-  },
-  {
-    date: '19-Jan-17',
-    description: 'Basketball',
-    income: '',
-    outcome: '200.000',
-    cash: '13.346.200',
-  },
   {
     date: '12-Jan-17',
     description: 'Cash from PUMA 2016',
