@@ -12,7 +12,7 @@
     <tr v-for="item in data">
       <slot :row="item">
         <td v-for="column in columns" v-if="hasValue(item, column)">{{itemValue(item, column)}}</td>
-        <td v-show="option" class="col-sm-1"><a class="nc-icon nc-ruler-pencil" href=""></a> <a class="nc-icon nc-simple-remove" href=""></a></td>
+        <td v-show="option" class="col-sm-1"><a href=""><font-awesome-icon :icon="['far','edit']"/></a>&nbsp;<a href=""><font-awesome-icon :icon="['fas','eraser']"/></a></td>
       </slot>
     </tr>
     </tbody>

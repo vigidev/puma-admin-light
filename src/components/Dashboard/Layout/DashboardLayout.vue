@@ -31,7 +31,7 @@
         <p>Notifications</p>
       </sidebar-link>
       <sidebar-link to="/admin/cash">
-        <i class="nc-icon nc-bell-55"></i>
+        <i><font-awesome-icon :icon="['far','money-bill-alt']"/></i>
         <p>Cash Audit</p>
       </sidebar-link>
     </side-bar>

@@ -1,4 +1,9 @@
 import Vue from 'vue'
+import fontawesome from '@fortawesome/fontawesome'
+import FontAwesomeIcon from '@fortawesome/vue-fontawesome'
+import brands from '@fortawesome/fontawesome-free-brands'
+import regular from '@fortawesome/fontawesome-free-regular'
+import solid from '@fortawesome/fontawesome-free-solid'
 import VueRouter from 'vue-router'
 import App from './App.vue'
 
@@ -10,6 +15,12 @@ import routes from './routes/routes'
 // plugin setup
 Vue.use(VueRouter)
 Vue.use(LightBootstrap)
+
+Vue.use(FontAwesomeIcon)
+Vue.component('font-awesome-icon', FontAwesomeIcon)
+fontawesome.library.add(brands)
+fontawesome.library.add(regular)
+fontawesome.library.add(solid)
 
 // configure router
 const router = new VueRouter({
