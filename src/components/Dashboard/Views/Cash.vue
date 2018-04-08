@@ -23,7 +23,7 @@
             <div class="col-md-6 col-sm-12">
                 <card>
                     <template slot="header">
-                    <h4 class="card-title"><font-awesome-icon :icon="['fas', 'plus-square']"/> Income Form</h4>
+                    <h4 class="card-title text-success"><font-awesome-icon :icon="['fas', 'plus-square']"/> Income Form</h4>
                     <p class="card-category">Please put income here</p>
                     </template>
                     <form>
@@ -56,7 +56,7 @@
                             </div>
                         </div>
                         <div class="text-center">
-                            <button type="submit" class="btn btn-info btn-fill float-right" @click.prevent="postIncome">
+                            <button type="submit" class="btn btn-success btn-fill float-center" @click.prevent="postIncome">
                             Input Income
                             </button>
                         </div>    
@@ -69,7 +69,7 @@
             <div class="col-md-6 col-sm-12">
                 <card>
                     <template slot="header">
-                    <h4 class="card-title"><font-awesome-icon :icon="['fas', 'minus-square']"/> Outcome Form</h4>
+                    <h4 class="card-title text-danger"><font-awesome-icon :icon="['fas', 'minus-square']"/> Outcome Form</h4>
                     <p class="card-category">Please put outcome here</p>
                     </template>
                     <form>
@@ -102,7 +102,7 @@
                             </div>
                         </div>
                         <div class="text-center">
-                            <button type="submit" class="btn btn-info btn-fill float-right" @click.prevent="postIncome">
+                            <button type="submit" class="btn btn-danger btn-fill float-center" @click.prevent="postIncome">
                             Input Income
                             </button>
                         </div>    

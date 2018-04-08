@@ -23,7 +23,7 @@
             <div class="col-md-12 col-sm-12">
                 <card>
                     <template slot="header">
-                    <h4 class="card-title"><font-awesome-icon :icon="['fas', 'user-plus']"/> Add User</h4>
+                    <h4 class="card-title text-success"><font-awesome-icon :icon="['fas', 'user-plus']"/> Add User</h4>
                     <p class="card-category">Fill this form to add new user for accessing the admin panel.</p>
                     </template>
                     <form>
@@ -90,7 +90,7 @@
                             </div>
                         </div>
                         <div class="text-center">
-                            <button type="submit" class="btn btn-info btn-fill float-right" @click.prevent="postNewUser">
+                            <button type="submit" class="btn btn-success btn-fill float-center" @click.prevent="postNewUser">
                             Add User
                             </button>
                         </div>    
@@ -114,35 +114,35 @@ const TableData = [
     id: '001201500028',
     name: 'Muhammad Iqbal',
     position: 'superadmin',
-    email: 'iqbal@xoxo.com',
+    email: 'iqbal@pucomputing.org',
     phone: '081322811010'
   },
   {
     id: '001201500028',
     name: 'Muhammad Iqbal',
     position: 'superadmin',
-    email: 'iqbal@xoxo.com',
+    email: 'iqbal@pucomputing.org',
     phone: '081322811010'
   },
   {
     id: '001201500028',
     name: 'Muhammad Iqbal',
     position: 'superadmin',
-    email: 'iqbal@xoxo.com',
+    email: 'iqbal@pucomputing.org',
     phone: '081322811010'
   },
   {
     id: '001201500028',
     name: 'Muhammad Iqbal',
     position: 'superadmin',
-    email: 'iqbal@xoxo.com',
+    email: 'iqbal@pucomputing.org',
     phone: '081322811010'
   },
   {
     id: '001201500028',
     name: 'Muhammad Iqbal',
     position: 'superadmin',
-    email: 'iqbal@xoxo.com',
+    email: 'iqbal@pucomputing.org',
     phone: '081322811010'
   }
 ]
