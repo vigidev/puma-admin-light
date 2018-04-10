@@ -35,8 +35,12 @@
         <p>Cash Audit</p>
       </sidebar-link>
       <sidebar-link to="/admin/members">
-        <i><font-awesome-icon :icon="['fas','users']"/></i>
+        <i><font-awesome-icon :icon="['fas','user']"/></i>
         <p>Admin Members</p>
+      </sidebar-link>
+      <sidebar-link to="/admin/computizen">
+        <i><font-awesome-icon :icon="['fas','users']"/></i>
+        <p>Computizen</p>
       </sidebar-link>
     </side-bar>
     <div class="main-panel">

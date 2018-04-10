@@ -13,6 +13,7 @@ import Maps from 'src/components/Dashboard/Views/Maps.vue'
 import Notifications from 'src/components/Dashboard/Views/Notifications.vue'
 import CashAudit from 'src/components/Dashboard/Views/Cash.vue'
 import AdminMember from 'src/components/Dashboard/Views/Member.vue'
+import Computizen from 'src/components/Dashboard/Views/Computizen.vue'
 
 const routes = [
   {
@@ -68,6 +69,11 @@ const routes = [
         path: 'members',
         name: 'Members',
         component: AdminMember
+      },
+      {
+        path: 'computizen',
+        name: 'Computizen',
+        component: Computizen
       }
     ]
   },
