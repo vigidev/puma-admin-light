@@ -42,6 +42,10 @@
         <i><font-awesome-icon :icon="['fas','users']"/></i>
         <p>Computizen</p>
       </sidebar-link>
+      <sidebar-link to="/admin/newsevent">
+        <i><font-awesome-icon :icon="['fas','newspaper']"/></i>
+        <p>News and Event</p>
+      </sidebar-link>
     </side-bar>
     <div class="main-panel">
       <top-navbar></top-navbar>

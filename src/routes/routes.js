@@ -14,6 +14,7 @@ import Notifications from 'src/components/Dashboard/Views/Notifications.vue'
 import CashAudit from 'src/components/Dashboard/Views/Cash.vue'
 import AdminMember from 'src/components/Dashboard/Views/Member.vue'
 import Computizen from 'src/components/Dashboard/Views/Computizen.vue'
+import News from 'src/components/Dashboard/Views/News.vue'
 
 const routes = [
   {
@@ -74,6 +75,11 @@ const routes = [
         path: 'computizen',
         name: 'Computizen',
         component: Computizen
+      },
+      {
+        path: 'newsevent',
+        name: 'News and Event',
+        component: News
       }
     ]
   },
